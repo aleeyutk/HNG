@@ -1,0 +1,4 @@
+com/hng/genderize/controller/ClassificationController.class
+com/hng/genderize/controller/GlobalExceptionHandler.class
+com/hng/genderize/GenderizeApiApplication.class
+com/hng/genderize/controller/ClassificationController$GenderizeResponse.class
