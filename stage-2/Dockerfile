@@ -7,6 +7,8 @@ RUN npm install --production
 
 COPY . .
 
+RUN npm run seed
+
 EXPOSE 3000
 
 CMD ["node", "index.js"]

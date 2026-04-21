@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const { initDB } = require('./database');
-const { v7: uuidv7 } = require('uuid');
+
 
 async function seed() {
+    const { v7: uuidv7 } = await import('uuid');
     const db = await initDB();
     const dataPath = path.join(__dirname, 'seed_profiles.json');
     if (!fs.existsSync(dataPath)) {
